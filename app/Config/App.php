@@ -5,6 +5,9 @@ use CodeIgniter\Config\BaseConfig;
 class App extends BaseConfig
 {
 
+	// Categories signed up for
+	public $categories = ['anime','basketball','creators','crossfire', 
+		'football','hiphop','history','movies','tvstars'];
 	/*
 	|--------------------------------------------------------------------------
 	| Base Site URL
