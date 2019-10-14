@@ -7,7 +7,7 @@ class App extends BaseConfig
 
 	// Categories signed up for
 	public $categories = ['anime','basketball','creators','crossfire', 
-		'football','hiphop','history','movies','tvstars'];
+		'football','hiphop','history','hockey', 'movies','tvstars'];
 	/*
 	|--------------------------------------------------------------------------
 	| Base Site URL
