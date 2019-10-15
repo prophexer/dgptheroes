@@ -12,8 +12,8 @@
 			<h1>Heroes of DGPT4711</h1>
 
 			{cells}
-				<img src="images/{name}/{name}.png" width="100" height="100" title="{name}"
-					 style="padding:20px"/>
+				<a href="/{name}/"<img src="images/{name}/{name}.png" width="100" height="100" title="{name}"
+									   style="padding:20px"/></a>
 			{/cells}
 
 		</div>
