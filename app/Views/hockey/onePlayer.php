@@ -5,7 +5,7 @@
 	</head>
 	<body>
 		<h1>{name}</h1>
-                <p><img src="/image/hockey/{image}"/></p>
+                <p><img src="/images/hockey/{image}"/></p>
                 <p>{name}, also known as {nickname} is a famous hockey player 
                     that was born in {city}. They played as a {position} for the 
                     {team} and scored a total of {goals} goals.</p>
