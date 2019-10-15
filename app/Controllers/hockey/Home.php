@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers\Hockey;
+namespace App\Controllers\hockey;
 use App\Controllers\BaseController;
 
 class Home extends BaseController

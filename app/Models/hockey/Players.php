@@ -1,5 +1,5 @@
 <?php
-namespace App\Models\Hockey;
+namespace App\Models\hockey;
 
 /**
  * Hockey Player Data
