@@ -8,7 +8,7 @@
                 <p><img src="/images/creators/{image}"/></p>
                 <p>{Name},{Date of birth},{Grduate},{Country}
                     {Game compan}.</p>
-		<p><a href="/home">Home</a></p>
+		<p><a href="/home">Back</a></p>
 	</body>
 </html>
 

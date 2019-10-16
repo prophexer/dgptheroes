@@ -8,6 +8,6 @@
 		{records}
 		<p><a href="/creators/Page/showme/{id}">{Name}</a></p>
 		{/records}
-		<p><a href="/home">Home</a></p>
+		<p><a href="/home">Back</a></p>
 	</body>
 </html>
