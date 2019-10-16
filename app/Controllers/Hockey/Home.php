@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers\hockey;
+namespace App\Controllers\Hockey;
 use App\Controllers\BaseController;
 
 class Home extends BaseController
@@ -16,7 +16,7 @@ class Home extends BaseController
         // tell it about the substitions
         return $parser->setData(['records' => $records])
             // and have it render the template with those
-            ->render('hockey\playerList');
+            ->render('hockey/playerList');
     }
     
     public function showme($id)
@@ -31,6 +31,6 @@ class Home extends BaseController
         // tell it about the substitions
         return $parser->setData($record)
             // and have it render the template with those
-            ->render('hockey\onePlayer');
+            ->render('hockey/onePlayer');
     }
 }
