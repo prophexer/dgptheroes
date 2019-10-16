@@ -6,7 +6,6 @@
         protected $data   = [
      
              '6'	 => [ 
-            'id'			 => 6,
             'Name'     => 'Hironobu_Sakaguchi',
             'Date of birth'         =>'1962-11-25',
             'Grduate'         =>'Yokohama National University',
@@ -16,8 +15,8 @@
             'Identifier'        => 'Hironobu Sakaguchi doesn’t feature in Develop Magazine’s list of all time greats, but his 2000 induction into the Academy of Interactive Arts & Sciences’ Hall of Fame is sure to come as some solace. In 1987 he created the epic role-playing game, Final Fantasy, the name of which was inspired by the idea that if it did not sell he would go back to the university he had dropped out of several years earlier. Final Fantasy was a tremendous success. It is one of the best-selling video game franchises ever – the series had sold almost 100 million units as of 2010 – and is credited with popularizing many of the standard features of today’s role-playing games. Sakaguchi has also developed other successful games including Blue Dragon and Kingdom Hearts.',
             'imagename'         =>'Hironobu_Sakaguchi.png'
             ],
-             '5'	 => [  
-            'id'			 => 5,
+
+             '5'	 => [ 
             'Name'     => 'Michael_Morhaime',
             'Date of birth'         =>'1966',
             'Grduate'         =>'University of California, Los Angeles',
@@ -28,7 +27,6 @@
             'imagename'         =>'Michael_Morhaime.png'
              ],
              '4'	 => [ 
-            'id'			 => 4,
             'Name'     => 'Satoshi_Tajiri',
             'Date of birth'         =>'1965-8-28',
             'Grduate'         =>'National Tokyo Institute of industry',
@@ -39,7 +37,6 @@
             'imagename'         =>'Satoshi_Tajiri.png'
             ],
              '3'	 => [ 
-            'id'			 => 3,
             'Name'     => 'John_Carmack',
             'Date of birth'         =>'1970-8-20',
             'Grduate'         =>'Kansas University',
@@ -50,7 +47,6 @@
             'imagename'         =>'John_Carmack.png'
             ],
              '2'	 => [ 
-            'id'			 => 2,
             'Name'     => 'Hideo_Kojima',
             'Date of birth'         =>'1963-8-24',
             'Grduate'         =>'A Japan ordinary University',
@@ -61,7 +57,6 @@
             'imagename'         =>'Hideo_Kojima.png'
             ],
              '1'	 => [ 
-            'id'			 => 1,
             'Name'     => 'Chen_Xinghan',
             'Date of birth'         =>'Unknown',
             'Grduate'         =>'Shanghai Jiao Tong University,University of Southern California',
