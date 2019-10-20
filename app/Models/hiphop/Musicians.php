@@ -1,10 +1,6 @@
 <?php
-namespace App\Models;
+namespace App\Models\hiphop;
 
-/**
- * Mock travel destination data.
- * Note that we don't have to extend CodeIgniter's model for now.
- */
 class Musicians
 {
 
@@ -79,8 +75,10 @@ class Musicians
 
 	public function find($id = null)
 	{
-		if ( ! empty($id) && isset($this->data[$id]))
-			return $this->data[$id];
-		return null;
+            if (!empty($id) && isset($this->data[$id])) 
+            {
+            return $this->data[$id];
+            }
+            return null;
 	}
 }
