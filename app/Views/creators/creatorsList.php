@@ -3,6 +3,7 @@
 	<head>
 		<title>The Famous Game Creators</title>
 	</head>
+
         <style>
         p{
                 font-size: 10px;
@@ -13,6 +14,7 @@
                 font-size: 15px;
             }
          </style>
+
 	<body>
 		<h1>The Famous Game Creators</h1>
 		{records}
