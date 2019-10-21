@@ -1,5 +1,5 @@
 <?php
-namespace App\Controllers\creators;
+namespace App\Controllers\Creators;
 use App\Controllers\BaseController;
 
 class Home extends BaseController
