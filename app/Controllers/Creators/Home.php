@@ -16,7 +16,7 @@ class Home extends BaseController
         // tell it about the substitions
         return $parser->setData(['records' => $records])
             // and have it render the template with those
-             ->render('creators\creatorsList');
+             ->render('creators/creatorsList');
     }
     
     public function showme($id)
@@ -31,6 +31,6 @@ class Home extends BaseController
         // tell it about the substitions
         return $parser->setData($record)
             // and have it render the template with those
-            ->render('creators\oneCreator');
+            ->render('creators/oneCreator');
     }
 }
