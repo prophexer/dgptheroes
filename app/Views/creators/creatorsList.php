@@ -6,12 +6,12 @@
 
         <style>
         p{
-                font-size: 10px;
+                font-size: 40px;
                 text-indent: 5em;
             }
         h1{
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 30px;
             }
          </style>
 

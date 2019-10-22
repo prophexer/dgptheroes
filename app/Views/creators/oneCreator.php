@@ -5,17 +5,17 @@
 	</head>
         <style>
             p{
-                font-size: 10px;
+                font-size: 40px;
                 text-indent: 5em;
             }
             h1{
                 font-weight: bold;
-                font-size: 15px;
+                font-size: 30px;
             }
         </style>
 	<body>
 	       <h1>{Name}</h1>
-                <p><img src="/images/creators/{image}"/></p>
+               <p><img src="/public/images/creators/{image}"/></p>
                 <p>Name:{Name}</p>
                 <p>Date of birth:{Date_of_birth}</p>
                 <p>Grduate:{Grduate}</p>

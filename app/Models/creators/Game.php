@@ -4,7 +4,6 @@
     class Game 
     {
         protected $data   = [
-     
              '6'	 => [ 
             'id'			 => 6,
             'Name'     => 'Hironobu_Sakaguchi',
