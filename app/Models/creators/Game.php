@@ -1,4 +1,4 @@
-  <?php 
+<?php 
     namespace App\Models\creators;
     use CodeIgniter\Model;
     class Game 
