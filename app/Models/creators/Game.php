@@ -1,7 +1,7 @@
   <?php 
     namespace App\Models\creators;
     use CodeIgniter\Model;
-    class Game extends Model
+    class Game 
     {
         protected $data   = [
      
