@@ -15,7 +15,7 @@
         </style>
 	<body>
 	       <h1>{Name}</h1>
-               <p><img src="/public/images/creators/{image}"/></p>
+               <p><img src="/public/images/creators"/></p>
                 <p>Name:{Name}</p>
                 <p>Date of birth:{Date_of_birth}</p>
                 <p>Grduate:{Grduate}</p>
