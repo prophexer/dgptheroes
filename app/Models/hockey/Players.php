@@ -1,13 +1,25 @@
 <?php
 namespace App\Models\hockey;
 
+use App\Models\Simple\XMLModel;
 /**
  * Hockey Player Data
  */
-class Players
+/*
+class Places extends XMLModel
 {
-
-	// mock data: an array of records (also arrays)
+    protected $origin = WRITEPATH . 'data/placesData.xml';
+    protected $keyField = 'id';
+    protected $validationRules = [];
+}
+*/
+class Players extends XMLModel
+{
+    protected $origin = WRITEPATH . 'data/hockey/hockeyData.xml';
+    protected $keyField = 'id';
+    protected $validationRules = [];
+/*	
+// mock data: an array of records (also arrays)
 	protected $data = [
 		'1'	 => [
 			'id'			 => 1,
@@ -82,5 +94,5 @@ class Players
 			return $this->data[$id];
 		return null;
 	}
-
+*/
 }
